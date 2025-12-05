@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 02f5edec32aa94efbbad0b61abe5485c
+timeCreated: 1502366506
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Materials/UI/StarShineParticle.mat
+  uploadId: 805114

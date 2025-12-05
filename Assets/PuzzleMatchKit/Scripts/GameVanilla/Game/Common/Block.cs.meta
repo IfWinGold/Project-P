@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5cca1881c7088c44d9db939815727c2d
+timeCreated: 1505233009
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/Block.cs
+  uploadId: 805114

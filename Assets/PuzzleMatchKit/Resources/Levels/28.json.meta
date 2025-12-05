@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1d99b743a41704c54870eb5dac144921
+timeCreated: 1506198876
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Resources/Levels/28.json
+  uploadId: 805114

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cbb1a6add8bb64700b78a4fd255935f7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Prefabs/Particles/Home/StarsParticles.prefab
+  uploadId: 805114

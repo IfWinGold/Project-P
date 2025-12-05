@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 01f8e2ec6d5fa59448004b7b75f4ece5
+timeCreated: 1502963048
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/UI/LevelAvatar.cs
+  uploadId: 805114

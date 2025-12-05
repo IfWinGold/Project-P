@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a90f3c580008c4b9a9a651c17836aef7
+timeCreated: 1502366506
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Materials/Game/ColorBombParticle.mat
+  uploadId: 805114

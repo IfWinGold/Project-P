@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d19f47b28663dd0468ba7abb3766375b
+timeCreated: 1503942354
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/GoalUIElement/TickImage.controller
+  uploadId: 805114

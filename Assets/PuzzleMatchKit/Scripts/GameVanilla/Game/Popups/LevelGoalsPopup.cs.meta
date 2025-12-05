@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 7337c085cea274944a4ba00ed542bf02
+timeCreated: 1502878766
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Popups/LevelGoalsPopup.cs
+  uploadId: 805114

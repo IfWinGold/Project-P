@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d285623cce366214eb08da311524085c
+timeCreated: 1503673845
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/Tiles/Falling.anim
+  uploadId: 805114

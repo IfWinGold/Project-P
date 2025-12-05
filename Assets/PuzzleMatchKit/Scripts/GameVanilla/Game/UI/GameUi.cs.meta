@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 780aa3af39072c94997d233d0f3e393f
+timeCreated: 1502211357
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/UI/GameUi.cs
+  uploadId: 805114

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7ca161c8eb7a3448082bb67e28ade6c9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/Utilities/LeanTween/Editor/LeanTweenDocumentationEditor.cs
+  uploadId: 805114

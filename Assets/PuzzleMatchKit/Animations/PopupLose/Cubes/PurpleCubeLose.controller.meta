@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 011a7af508aaa4d85acb71410e5ba322
+timeCreated: 1502448449
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/PopupLose/Cubes/PurpleCubeLose.controller
+  uploadId: 805114

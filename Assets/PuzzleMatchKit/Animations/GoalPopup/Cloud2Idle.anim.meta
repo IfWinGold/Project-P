@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b80b64a71f2d544758b40a548e99c0da
+timeCreated: 1502733636
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/GoalPopup/Cloud2Idle.anim
+  uploadId: 805114

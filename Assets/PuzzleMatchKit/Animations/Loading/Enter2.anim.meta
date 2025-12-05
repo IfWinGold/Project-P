@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b105016747c1d43cb8987b11481a994d
+timeCreated: 1511373902
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/Loading/Enter2.anim
+  uploadId: 805114

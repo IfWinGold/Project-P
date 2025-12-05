@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8be83756f78ff014388d23c1e53c6fef
+timeCreated: 1501608827
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Prefabs/Boosters/Dynamite.prefab
+  uploadId: 805114

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 80555a201395e41339bfa16263bfed93
+timeCreated: 1502883501
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/Life/LifeBagIdle.anim
+  uploadId: 805114

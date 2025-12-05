@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16b2d053b5f4c4d7c901de3f4021b9c2
+timeCreated: 1502529800
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scenes/LevelScene.unity
+  uploadId: 805114

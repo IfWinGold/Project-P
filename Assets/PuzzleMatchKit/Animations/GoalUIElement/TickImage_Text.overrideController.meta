@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1a368613052a83c41a09326615fa51b2
+timeCreated: 1504553621
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/GoalUIElement/TickImage_Text.overrideController
+  uploadId: 805114

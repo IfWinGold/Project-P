@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7ddcc275a11b2420986257c83241ac83
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/AdsSystem.cs
+  uploadId: 805114

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0345db26a02efe2418fbba4566bca080
+timeCreated: 1504108296
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Core/SoundFx.cs
+  uploadId: 805114

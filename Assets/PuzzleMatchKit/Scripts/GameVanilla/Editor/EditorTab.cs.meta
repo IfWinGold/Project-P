@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ce1a8c98113bbd74dbb1d95923398201
+timeCreated: 1500978227
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Editor/EditorTab.cs
+  uploadId: 805114

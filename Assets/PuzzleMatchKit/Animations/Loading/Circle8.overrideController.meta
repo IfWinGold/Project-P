@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bbb1c007df8a4463a8b8ca1f15219fee
+timeCreated: 1511373921
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/Loading/Circle8.overrideController
+  uploadId: 805114

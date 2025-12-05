@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 346710fb167af9d4e8fcb452135704d3
+timeCreated: 1505233360
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/Blocker.cs
+  uploadId: 805114

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6e7db113d565340328284876991a4613
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/Utilities/LeanTween/Framework/com.leantween.asmdef
+  uploadId: 805114

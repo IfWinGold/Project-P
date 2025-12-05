@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 2f528a43a8fbf480c89bb8fcb26ab751
+timeCreated: 1503600112
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/PopupWin/Stars/StarIdle1.anim
+  uploadId: 805114

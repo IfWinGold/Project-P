@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8f037f7ee25534447945dab1c7f2527e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/Utilities/LeanTween/Framework/LTDescrOptional.cs
+  uploadId: 805114

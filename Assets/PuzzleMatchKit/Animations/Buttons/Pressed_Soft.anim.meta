@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ed4241492634b486f8a62973b4ee5405
+timeCreated: 1503313619
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/Buttons/Pressed_Soft.anim
+  uploadId: 805114

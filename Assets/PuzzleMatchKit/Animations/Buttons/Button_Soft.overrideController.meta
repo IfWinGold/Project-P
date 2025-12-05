@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 43bb03996e50c450f8ab29d50d07ce46
+timeCreated: 1503313561
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/Buttons/Button_Soft.overrideController
+  uploadId: 805114

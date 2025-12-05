@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e66ee1ef0617840d98070a047dfd1758
+timeCreated: 1504551048
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/GoalUIElement/GoalTextAchieved.anim
+  uploadId: 805114

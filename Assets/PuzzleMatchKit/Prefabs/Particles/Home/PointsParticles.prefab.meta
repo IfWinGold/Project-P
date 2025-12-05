@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cd090f2ba4f2d462f8a1527ae627ffc6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Prefabs/Particles/Home/PointsParticles.prefab
+  uploadId: 805114

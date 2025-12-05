@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f78542cdd09447c9bb00f93fe967014
+timeCreated: 1503844749
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/HomeScene/Confetti/Confetti8.overrideController
+  uploadId: 805114

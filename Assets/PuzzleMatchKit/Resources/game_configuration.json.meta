@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44d29c2542dc54945aee992f8371ec8a
+timeCreated: 1502364284
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Resources/game_configuration.json
+  uploadId: 805114

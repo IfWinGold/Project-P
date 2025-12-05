@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cac57c73430a24fcba90c92781dd16af
+timeCreated: 1503488844
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Shaders/Overlay.shader
+  uploadId: 805114

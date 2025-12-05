@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a6070fad415bf4549b22030c08248f70
+timeCreated: 1500978913
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Common/GameConfiguration.cs
+  uploadId: 805114

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4deaa660c526946ef8fab422cfc633d3
+timeCreated: 1502391350
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/StarsStartGame/Star2_StartGame.overrideController
+  uploadId: 805114

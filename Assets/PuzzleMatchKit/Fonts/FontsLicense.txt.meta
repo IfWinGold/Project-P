@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a0fb6e695d226b4fa247d2dee2afa33
+timeCreated: 1536241633
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Fonts/FontsLicense.txt
+  uploadId: 805114

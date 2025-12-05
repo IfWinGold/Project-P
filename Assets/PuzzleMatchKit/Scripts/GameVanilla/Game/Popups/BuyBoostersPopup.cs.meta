@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ba6bb1dcf4dc4784183fa5bce38b3123
+timeCreated: 1507309045
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Scripts/GameVanilla/Game/Popups/BuyBoostersPopup.cs
+  uploadId: 805114

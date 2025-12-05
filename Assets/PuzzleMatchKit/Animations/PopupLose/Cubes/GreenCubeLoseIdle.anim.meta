@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3a99fe04608b34098ac07301a264a04d
+timeCreated: 1502448459
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/PopupLose/Cubes/GreenCubeLoseIdle.anim
+  uploadId: 805114

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 628f359c519354096afda3eb8892755b
+timeCreated: 1502388229
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Animations/PopupWin/Cubes/BlueCubeWin.controller
+  uploadId: 805114

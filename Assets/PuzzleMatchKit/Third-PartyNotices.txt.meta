@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 65d2a58d7f38cbc429667d74f31181fd
+timeCreated: 1536241543
+licenseType: Store
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Third-PartyNotices.txt
+  uploadId: 805114

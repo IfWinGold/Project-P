@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a5851986e9c944ecebaed292c72e44c4
+timeCreated: 1501069833
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 100199
+  packageName: Puzzle Match Kit
+  packageVersion: 3.0.0
+  assetPath: Assets/PuzzleMatchKit/Prefabs/Blocks/Block3.prefab
+  uploadId: 805114
