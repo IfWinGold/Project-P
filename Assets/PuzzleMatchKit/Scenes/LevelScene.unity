@@ -5815,7 +5815,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608842681}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.2682634, y: 0.65424365, z: 0.2682634, w: 0.65424365}
+  m_LocalRotation: {x: -0.652311, y: 0.27292928, z: -0.27292928, w: 0.65231097}
   m_LocalPosition: {x: -0.24157536, y: -68.652214, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
@@ -5836,6 +5836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SplinePathFollower
   spline: {fileID: 1012016351}
   currentT: 0
+  upVector: {x: 0, y: 0, z: -1}
 --- !u!1001 &624709725
 PrefabInstance:
   m_ObjectHideFlags: 0

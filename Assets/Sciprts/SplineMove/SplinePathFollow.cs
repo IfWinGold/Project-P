@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -9,7 +10,7 @@ public class SplinePathFollower : MonoBehaviour
 
     // currentT는 항상 인덱스 기반 (0 = 첫 포인트, 1 = 두 번째 포인트)
     public float currentT = 0f;
-
+    [SerializeField] private Vector3 upVector;
 
     // --- 실행 중이든 아니든 currentT 바뀌면 바로 씬뷰에서 반영 ---
     
@@ -45,6 +46,11 @@ public class SplinePathFollower : MonoBehaviour
         float nextT = Mathf.Min(currentT + 0.01f, maxT);
         Vector3 nextPos = spline.GetPoint(nextT);
 
-        transform.forward = (nextPos - pos).normalized;
+        //Vector3 corss = Vector3.Cross(upVector, (nextPos - pos).normalized);
+        //transform.LookAt((nextPos - pos).normalized,upVector);
+        //transform.forward = corss;
+        //transform.forward = (nextPos - pos).normalized;
+        
+        transform.rotation = Quaternion.LookRotation(nextPos - pos,upVector);
     }
 }
