@@ -6,6 +6,7 @@ public class UIStagePathBuilder : MonoBehaviour
 {
     [Header("UI Buttons in Path Order")]
     public RectTransform[] stageButtons;
+    [SerializeField] private SplinePathFollower follower;
 
     [Header("Canvas Reference")]
     public Canvas canvas;
@@ -14,11 +15,12 @@ public class UIStagePathBuilder : MonoBehaviour
     public SplinePath spline;
 
     public Camera uiCamera; // Canvas가 Screen Space - Camera이면 필요
+    
 
-    private void Start()
+    public void ReBuild()
     {
-        // 게임이 시작되면 디바이스마다 다른 해상도에 맞춰 path 재생성
         RebuildPath();
+        follower.ApplyPositionByT();
     }
 
     /// <summary>

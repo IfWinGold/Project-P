@@ -9,6 +9,7 @@ using UnityEngine.UI;
 using GameVanilla.Core;
 using GameVanilla.Game.Common;
 using GameVanilla.Game.UI;
+using UnityEngine.Events;
 
 namespace GameVanilla.Game.Scenes
 {
@@ -28,6 +29,7 @@ namespace GameVanilla.Game.Scenes
         private GameObject avatarPrefab;
 #pragma warning restore 649
 
+        public UnityEvent onSceneReady;
         /// <summary>
         /// Unity's Awake method.
         /// </summary>
@@ -110,6 +112,8 @@ namespace GameVanilla.Game.Scenes
                 avatar.GetComponent<LevelAvatar>().StartFloatingAnimation();
                 scrollRect.vertical = true;
             }
+            
+            onSceneReady?.Invoke();
         }
     }
 }
