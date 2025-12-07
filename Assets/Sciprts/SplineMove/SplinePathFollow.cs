@@ -1,6 +1,8 @@
 using UnityEngine;
 
+#if UNITY_EDITOR
 [ExecuteAlways]
+#endif
 public class SplinePathFollower : MonoBehaviour
 {
     public SplinePath spline;
@@ -10,6 +12,8 @@ public class SplinePathFollower : MonoBehaviour
 
 
     // --- 실행 중이든 아니든 currentT 바뀌면 바로 씬뷰에서 반영 ---
+    
+    #if UNITY_EDITOR
     private void OnValidate()
     {
         if (spline == null || spline.controlPoints == null || spline.controlPoints.Count == 0)
@@ -17,10 +21,11 @@ public class SplinePathFollower : MonoBehaviour
 
         ApplyPositionByT();
         
-#if UNITY_EDITOR
-        UnityEditor.SceneView.RepaintAll();
-#endif
+// #if UNITY_EDITOR
+//         UnityEditor.SceneView.RepaintAll();
+// #endif
     }
+    #endif
 
 
     // --- 외부에서 currentT를 변경할 때 호출하면 됨 ---

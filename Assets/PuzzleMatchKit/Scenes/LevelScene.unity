@@ -2923,6 +2923,39 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 312779619}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &321190439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 321190440}
+  m_Layer: 0
+  m_Name: TEST_UI_PATH
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &321190440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321190439}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.11859, y: 64.7459, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 608842685}
+  - {fileID: 1012016352}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &324254865
 GameObject:
   m_ObjectHideFlags: 0
@@ -5688,7 +5721,7 @@ GameObject:
   - component: {fileID: 608842682}
   - component: {fileID: 608842686}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: TestPlayer(Capsule)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5782,12 +5815,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608842681}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.45510164, y: -0.5411863, z: -0.45510164, w: 0.5411862}
-  m_LocalPosition: {x: 0.65366834, y: 5.6824317, z: 0}
+  m_LocalRotation: {x: -0.2682634, y: 0.65424365, z: 0.2682634, w: 0.65424365}
+  m_LocalPosition: {x: -0.24157536, y: -68.652214, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 321190440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &608842686
 MonoBehaviour:
@@ -5802,7 +5835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SplinePathFollower
   spline: {fileID: 1012016351}
-  currentT: 15.16
+  currentT: 0
 --- !u!1001 &624709725
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9360,12 +9393,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012016347}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.21532, y: -2.7105, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.33391, y: -67.456406, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 321190440}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1012016353
 MonoBehaviour:
@@ -20259,5 +20292,4 @@ SceneRoots:
   - {fileID: 1573663291}
   - {fileID: 1468805147}
   - {fileID: 1822451401}
-  - {fileID: 608842685}
-  - {fileID: 1012016352}
+  - {fileID: 321190440}
