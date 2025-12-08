@@ -3111,6 +3111,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1813264962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1813264964}
+  - component: {fileID: 1813264963}
+  m_Layer: 0
+  m_Name: GoogleSheetLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1813264963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813264962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d14a6227333824dbd4c84a9061f2a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GoogleSheetLoader
+  sheetUrl: https://docs.google.com/spreadsheets/d/e/2PACX-1vRa-DZghVzjBR77F0hAGfVOJyDFhIcBB_ekCSTaAwgR9NkcbiBLmH9WafNZK_VqXcSuDpuWgTE0isKY/pub?gid=0&single=true&output=csv
+--- !u!4 &1813264964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813264962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.33391, y: -67.45641, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1826481101
 GameObject:
   m_ObjectHideFlags: 0
@@ -4082,3 +4127,4 @@ SceneRoots:
   - {fileID: 1705624778}
   - {fileID: 769764660}
   - {fileID: 365554799}
+  - {fileID: 1813264964}
