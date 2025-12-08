@@ -12,8 +12,8 @@ public class BGMManager : Singleton<BGMManager>
     public float defaultFadeTime = 1.5f;
     public float maxVolume = 1f;
 
-    private AudioSource _activeSource;
-    private AudioSource _inactiveSource;
+    [SerializeField] private AudioSource _activeSource;
+    [SerializeField] private AudioSource _inactiveSource;
 
     // Addressables 캐싱
     private Dictionary<string, AudioClip> _clipCache = new Dictionary<string, AudioClip>();
@@ -22,8 +22,16 @@ public class BGMManager : Singleton<BGMManager>
     {
         base.Awake();
 
-        _activeSource = gameObject.AddComponent<AudioSource>();
-        _inactiveSource = gameObject.AddComponent<AudioSource>();
+        if (_activeSource == null)
+        {
+            _activeSource = gameObject.AddComponent<AudioSource>();
+        }
+
+        if (_inactiveSource == null)
+        {
+            _inactiveSource = gameObject.AddComponent<AudioSource>();
+        }
+
 
         _activeSource.loop = true;
         _inactiveSource.loop = true;
@@ -32,23 +40,11 @@ public class BGMManager : Singleton<BGMManager>
         _inactiveSource.volume = 0f;
 
         DontDestroyOnLoad(gameObject);
+        
+        var music = PlayerPrefs.GetInt("music_enabled");
+        SetMute(music == 0);
     }
-
-    private void Start()
-    {
-        // 초기 BGM 재생 (필요시)
-        PlayAsync("Audio/HomeBGM");
-    }
-
-    private void Update()
-    {
-        // if (Input.GetKeyDown(KeyCode.Alpha1))
-        // {
-        //     ChangeBGMAsync("Audio/HomeBGM");
-        //     Debug.Log("Input Alpha1");
-        // }
-    }
-
+    
     // ====================================================
     // 🔥 로컬 클립 재생 (페이드 인)
     // ====================================================
@@ -143,5 +139,12 @@ public class BGMManager : Singleton<BGMManager>
 
         _activeSource.DOFade(0f, fadeTime)
             .OnComplete(() => _activeSource.Stop());
+    }
+
+
+    public void SetMute(bool isMute)
+    {
+        _activeSource.mute = isMute;
+        _inactiveSource.mute = isMute;
     }
 }

@@ -13,8 +13,9 @@ namespace GameVanilla.Core
     {
         private static BackgroundMusic instance;
 
-        private AudioSource audioSource;
-
+        [SerializeField] private AudioSource audioSource;
+        
+        //private AudioSource _audioSource {get => BGMManager.Instance.}
         /// <summary>
         /// Unity's Awake method.
         /// </summary>
