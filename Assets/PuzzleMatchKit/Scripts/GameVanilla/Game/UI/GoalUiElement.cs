@@ -60,6 +60,7 @@ namespace GameVanilla.Game.UI
                 
                 targetAmount = specificGoal.amount;
                 amountText.text = targetAmount.ToString();
+                Debug.Log($"{specificGoal.blockType}");
             }
             else
             {
@@ -82,6 +83,7 @@ namespace GameVanilla.Game.UI
                 
                 targetAmount = specificGoal.amount;
                 amountText.text = targetAmount.ToString();
+                Debug.Log($"{specificGoal.blockerType}");
             }
         }
 

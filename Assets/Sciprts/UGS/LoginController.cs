@@ -43,11 +43,6 @@ public class LoginController : Singleton<LoginController>
         Debug.Log("LoginController::Start()");
     }
 
-    private void Update()
-    {
-        Debug.Log($"LoginController::Update() , {IsLogin}");
-    }
-
     private async void SignedIn()
     {
         try
