@@ -48,12 +48,16 @@ namespace GameVanilla.Game.UI
             if (blockGoal != null)
             {
                 var specificGoal = blockGoal;
-                var texture = Resources.Load("Game/" + specificGoal.blockType) as Texture2D;
-                if (texture != null)
-                {
-                    image.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height),
-                        new Vector2(0.5f, 0.5f), 100);
-                }
+                // var texture = Resources.Load("Game/" + specificGoal.blockType) as Texture2D;
+                // if (texture != null)
+                // {
+                //     image.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height),
+                //         new Vector2(0.5f, 0.5f), 100);
+                // }
+                var texture = SpriteAtlasProvider.Instance.GetSprite("GameAtlas", specificGoal.blockType.ToString());
+                image.sprite = texture;
+                
+                
                 targetAmount = specificGoal.amount;
                 amountText.text = targetAmount.ToString();
             }
@@ -66,12 +70,16 @@ namespace GameVanilla.Game.UI
                 }
 
                 var specificGoal = blockerGoal;
-                var texture = Resources.Load("Game/" + specificGoal.blockerType) as Texture2D;
-                if (texture != null)
-                {
-                    image.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height),
-                        new Vector2(0.5f, 0.5f), 100);
-                }
+                // var texture = Resources.Load("Game/" + specificGoal.blockerType) as Texture2D;
+                // if (texture != null)
+                // {
+                //     image.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height),
+                //         new Vector2(0.5f, 0.5f), 100);
+                // }
+                var texture = SpriteAtlasProvider.Instance.GetSprite("GameAtlas", specificGoal.blockerType.ToString());
+                image.sprite = texture;
+                
+                
                 targetAmount = specificGoal.amount;
                 amountText.text = targetAmount.ToString();
             }

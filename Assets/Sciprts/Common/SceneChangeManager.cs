@@ -66,6 +66,7 @@ public class SceneChangeManager : Singleton<SceneChangeManager>
             case "LevelScene":
             {
                 BGMManager.Instance.ChangeBGMAsync("Audio/LevelBGM");
+                SpriteAtlasProvider.Instance.LoadAtlas("GameAtlas");
                 break;
             }
             case "GameScene":
