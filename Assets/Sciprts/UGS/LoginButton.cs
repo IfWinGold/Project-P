@@ -5,18 +5,14 @@ using UnityEngine;
 
 public class LoginButton : MonoBehaviour
 {
-    [SerializeField] private LoginController loginController;
     [SerializeField] private SceneTransition translation;
     [SerializeField] private TextMeshProUGUI tmpButtonText;
-    void Start()
-    {
-       
-    }
 
-    private void OnEnable()
+
+    private void Start()
     {
         // loginButton.onClick.AddListener(LoginButtonPressed);
-        loginController.OnSignedIn += LoginController_OnSignedIn;
+        LoginController.Instance.OnSignedIn += LoginController_OnSignedIn;
         // loginController.OnAvatarUpdate += LoginController_OnAvatarUpdate;
         // loginController.OnSignedOut += LoginController_OnSignedOut;
     }
@@ -29,7 +25,16 @@ public class LoginButton : MonoBehaviour
     }
     public async void LoginButtonPressed()
     {
-        await loginController.InitSignIn();
+        if (!LoginController.Instance.IsLogin)
+        {
+            await LoginController.Instance.InitSignIn();  
+        }
+        else
+        {
+            translation.PerformTransition();
+        }
+            
+        
     }
     private void LoginController_OnSignedIn(PlayerProfile profile)
     {

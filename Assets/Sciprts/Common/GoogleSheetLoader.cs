@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class GoogleSheetLoader : MonoBehaviour
+public class GoogleSheetLoader : Singleton<GoogleSheetLoader>
 {
     [Header("Google Sheet CSV URL")]
     public string sheetUrl = "https://docs.google.com/spreadsheets/d/XXXXXX/gviz/tq?tqx=out:csv&sheet=ItemData";

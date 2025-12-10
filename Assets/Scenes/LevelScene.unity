@@ -3007,8 +3007,8 @@ GameObject:
   - component: {fileID: 324660324}
   - component: {fileID: 324660323}
   - component: {fileID: 324660322}
-  - component: {fileID: 324660325}
   - component: {fileID: 324660321}
+  - component: {fileID: 324660325}
   m_Layer: 5
   m_Name: AdButton
   m_TagString: Untagged
@@ -3074,7 +3074,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 324660325}
-        m_TargetAssemblyTypeName: GameVanilla.Game.UI.RewardedAdButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: RewardedAdsButton, Assembly-CSharp
         m_MethodName: ShowAd
         m_Mode: 1
         m_Arguments:
@@ -3132,9 +3132,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 324660319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33454c1f8573bc94e95c7debcf7ea231, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f7fb4daf63fc0943a958aaa9b33b127, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::RewardedAdsButton
+  _androidAdUnitId: Rewarded_Android
+  _iOSAdUnitId: Rewarded_iOS
+  onRewardComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 324660325}
+        m_TargetAssemblyTypeName: RewardedAdsButton, Assembly-CSharp
+        m_MethodName: TempReward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &325893355
 GameObject:
   m_ObjectHideFlags: 0

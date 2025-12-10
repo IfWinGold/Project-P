@@ -1,4 +1,8 @@
 using System;
+using GameVanilla.Core;
+using GameVanilla.Game.Common;
+using GameVanilla.Game.Popups;
+using GameVanilla.Game.Scenes;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Advertisements;
@@ -6,7 +10,7 @@ using UnityEngine.Events;
 
 public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowListener
 {
-    [SerializeField] Button _showAdButton;
+    //[SerializeField] Button _showAdButton;
     [SerializeField] string _androidAdUnitId = "Rewarded_Android";
     [SerializeField] string _iOSAdUnitId = "Rewarded_iOS";
 
@@ -23,17 +27,19 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
 #elif UNITY_ANDROID
         _adUnitId = _androidAdUnitId;
 #endif
+        //
+        // if (_showAdButton == null)
+        // {
+        //     Debug.LogError("RewardedAdsButton: ShowAdButton is NULL!");
+        //     enabled = false;
+        //     return;
+        // }
 
-        if (_showAdButton == null)
-        {
-            Debug.LogError("RewardedAdsButton: ShowAdButton is NULL!");
-            enabled = false;
-            return;
-        }
-
-        _showAdButton.interactable = false;
-        _showAdButton.onClick.RemoveAllListeners();
-        _showAdButton.onClick.AddListener(ShowAd);
+        //_showAdButton.interactable = false;
+        //this.gameObject.SetActive(false);
+        GetComponent<AnimatedButton>().interactable = false;
+        //_showAdButton.onClick.RemoveAllListeners();
+        //_showAdButton.onClick.AddListener(ShowAd);
     }
 
     private void OnEnable()
@@ -70,7 +76,9 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
         Debug.Log("Rewarded Ad Loaded Successfully");
         _isAdReady = true;
 
-        _showAdButton.interactable = true;
+        //this.gameObject.SetActive(true);
+        GetComponent<AnimatedButton>().interactable= true;
+        //_showAdButton.interactable = true;
     }
 
     public void ShowAd()
@@ -81,7 +89,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
             return;
         }
 
-        _showAdButton.interactable = false;
+        //_showAdButton.interactable = false;
         _isAdReady = false;
 
         Debug.Log("Showing Rewarded Ad...");
@@ -127,7 +135,25 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
 
     void OnDestroy()
     {
-        if (_showAdButton != null)
-            _showAdButton.onClick.RemoveListener(ShowAd);
+        // if (_showAdButton != null)
+        //     _showAdButton.onClick.RemoveListener(ShowAd);
+    }
+
+
+    public void TempReward()
+    {
+        // Reward the user for watching the ad to completion.
+        var gameManager = PuzzleMatchManager.instance;
+        var rewardCoins = gameManager.gameConfig.rewardedAdCoins;
+        gameManager.coinsSystem.BuyCoins(rewardCoins);
+        var levelScene = GameObject.Find("LevelScene");
+        if (levelScene != null)
+        {
+            levelScene.GetComponent<LevelScene>().OpenPopup<AlertPopup>("Popups/AlertPopup", popup =>
+            {
+                popup.SetTitle("Reward");
+                popup.SetText(string.Format("You earned {0} coins!", rewardCoins));
+            }, false);
+        }
     }
 }

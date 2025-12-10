@@ -34,7 +34,8 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         else if (_instance != this)
         {
             Debug.LogWarning($"[Singleton] {typeof(T).Name} 중복 인스턴스가 발견되어 제거됨.");
-            Destroy(gameObject);
+            Destroy(this.gameObject);
+            return;
         }
         Debug.Log("Singleton, Awake");
     }

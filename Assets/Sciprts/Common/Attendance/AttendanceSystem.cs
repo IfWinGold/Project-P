@@ -2,7 +2,7 @@ using UnityEngine;
 using System;
 using System.Collections;
 
-public class AttendanceSystem : MonoBehaviour
+public class AttendanceSystem : Singleton<AttendanceSystem>
 {
     private AttendanceData data;
 

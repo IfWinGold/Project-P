@@ -5,7 +5,7 @@ using Unity.Services.Authentication.PlayerAccounts;
 using Unity.Services.Core;
 using UnityEngine;
 
-public class LoginController : MonoBehaviour
+public class LoginController : Singleton<LoginController>
 {
     public event Action<PlayerProfile> OnSignedIn;
     public event Action OnSignedOut;
@@ -19,7 +19,18 @@ public class LoginController : MonoBehaviour
     [SerializeField] private bool autoSignIn = true;
 
     [SerializeField] private LoginButton loginButton;
-    private async void Awake()
+
+    private bool isLogin = false;
+
+    public bool IsLogin
+    {
+        get
+        {
+            return this.isLogin;
+        }
+    }
+
+    private async void Start()
     {
         await UnityServices.InitializeAsync();
         RegisterEvents();
@@ -29,7 +40,12 @@ public class LoginController : MonoBehaviour
         if(autoSignIn)
             await SignInCachedUserAsync();
         
-        
+        Debug.Log("LoginController::Start()");
+    }
+
+    private void Update()
+    {
+        Debug.Log($"LoginController::Update() , {IsLogin}");
     }
 
     private async void SignedIn()
@@ -154,6 +170,7 @@ public class LoginController : MonoBehaviour
         {
             //SignedIn();
             Debug.Log($"The player has successfully signed in");
+            isLogin = true;
         };
 
         AuthenticationService.Instance.Expired += () =>
@@ -166,6 +183,7 @@ public class LoginController : MonoBehaviour
             Debug.Log($"The player has successfully signed out");
             PlayerAccountService.Instance.SignOut();
             OnSignedOut?.Invoke();
+            isLogin = false;
         };
         
         
